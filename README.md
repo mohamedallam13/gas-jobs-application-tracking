@@ -19,6 +19,8 @@ A tool created on Google Apps Script to automate the job applications process ba
 * JavaScript ES6
 * HTML5
 * CSS3
+* Google Sheets
+* Google Forms
 * clasp
 
 ## Installation
@@ -37,11 +39,11 @@ clasp push
 
 ## Features
 
-* Fast data fetching and looking up
-* Different Criteria to look up entries
-* Displays results in a table with dynamic columns that woould appear based on conditions
-* Relies on a simple JSON file storage scheme that includes an index file
-* Switch between 2 databases
+* Aggregate all jobs data through forms
+* Create starter cover letter based on job title and industry of the company and other factors
+* Bundles all documents in an email to send it out to hiring mamagers
+* writes dates back to sheet for tracking
+* Saves generated documents in Doc and PDF formats in Google Drive
 
 
 
